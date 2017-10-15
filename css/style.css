@@ -1,218 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
 body {
-  color: #ffffff;
-  margin: auto;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #444;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.smallapps {
-  font-size: 30px;
-  font-family: "ProximaNova";
-  color: rgb(60, 61, 66);
-  line-height: 1.2;
-  text-align: left;
-  text-decoration: none;
-  position: absolute;
-  left: 120px;
-  top: 14px;
-  z-index: 99;
-}
-
-.nav {
-  font-size: 14px;
-  font-family: "Raleway";
-  color: rgb(60, 61, 66);
-  line-height: 1.2;
-  text-align: left;
-  position: absolute;
-  left: 300px;
-  top: 14px;
-  z-index: 76;
-}
-
-.phone {
-  font-size: 18px;
-  font-family: "Raleway";
-  color: rgb(60, 61, 66);
-  line-height: 1.2;
-  text-align: left;
-  position: absolute;
-  left: 655px;
-  top: 12px;
-  z-index: 76;
-  margin: auto;
-  width: 100%;
-}
-
-.mail {
-  font-size: 18px;
-  font-family: "Raleway";
-  color: rgb(60, 61, 66);
-  line-height: 1.2;
-  text-align: left;
-  position: absolute;
-  left: 855px;
-  top: 12px;
-  z-index: 76;
-  margin: auto;
-}
-
-.bg-top {
-  background-image: url("../img/bg.png");
-  background-color: rgb(13, 104, 174);
-  position: absolute;
-  left: 0px;
-  top: 70px;
-  width: 100%;
-  height: 730px;
-  z-index: 88;
-}
-
-.appTitle {
-  font-size: 36px;
-  font-family: "Raleway";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: left;
-  position: absolute;
-  left: 120px;
-  top: 182px;
-  z-index: 91;
-}
-
-.duis {
-  font-size: 36px;
-  font-family: "Raleway";
-  color: rgb(255, 255, 255);
-  font-weight: lighter;
-  line-height: 1.2;
-  text-align: left;
-  position: absolute;
-  left: 120px;
-  top: 225px;
-  z-index: 93;
-}
-
-.description {
-  font-size: 14px;
-  font-family: "Raleway";
-  color: rgb(157, 199, 209);
-  line-height: 1.714;
-  text-align: left;
-  position: absolute;
-  left: 120px;
-  top: 330px;
-  width: 468px;
-  height: 62px;
-  z-index: 89;
-}
-
-
-.image {
-  background-image: url("../img/image.png");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  position: absolute;
-  left: 483px;
-  top: 120px;
-  height: 610px;
-  width: 950px;
-  z-index: 87;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 400;
 }
 
 .button {
-  border-style: solid;
-  border-width: 3px;
-  border-color: rgb(255, 255, 255);
-  background-color: rgba(13, 72, 98, 0);
-  border-radius: 50px;
-  font-size: 21px;
-  opacity: 0.5;
-  position: absolute;
-  left: 120px;
-  top: 516px;
-  width: 244px;
-  height: 64px;
-  z-index: 90;
-  color: #ffffff;
-
-}
-
-.product {
-  background-color: rgb(242, 249, 254);
-  position: absolute;
-  left: 0px;
-  top: 1822px;
-  width: 100%;
-  height: 820px;
-  z-index: 56;
-}
-
-.mobile {
-  background-image: url("../img/mobile.png");
-  position: absolute;
-  left: 716px;
-  top: 77px;
-  width: 380px;
-  height: 696px;
-  z-index: 61;
-}
-
-.news {
-  background-color: rgb(243, 245, 245);
-  position: absolute;
-  left: 0px;
-  top: 5162px;
-  width: 100%;
-  height: 361px;
-  z-index: 9;
-}
-
-.input_type {
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(187, 195, 194);
-  background-color: rgb(255, 255, 255);
-  border-radius: 50px;
-  position: absolute;
-  left: 380px;
-  top: 181px;
-  width: 674px;
-  height: 54px;
-  z-index: 13;
-
-  font-size: 14px;
-  font-family: "Raleway";
-  color: rgb(140, 148, 148);
-  line-height: 1.714;
-}
-
-.submit {
-  background-color: rgb(93, 202, 136);
-  border-radius: 50px;
-  border-style: none;
-  position: absolute;
-  left: 869px;
-  top: 181px;
-  width: 190px;
+  background: url(../img/btn-app-store.png) no-repeat center top;
+  background-attachment: relative;
+  background-position: center center;
   height: 60px;
-  z-index: 14;
-
-  font-size: 20px;
-  font-family: "ProximaNova";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  letter-spacing: 0.01em;
+  width: 180px;
+  background-color: rgb(239, 63, 64);
+  border-radius: 5px;
 }
 
+.btn-sign-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 180px;
+  background-color: rgb(239, 63, 64);
+  border-radius: 5px;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
 
-.bg {
-  background-color: rgb(45, 49, 47);
-  position: absolute;
-  left: 0px;
-  top: 5523px;
+.btn-sigh-up {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 180px;
+  border: 2px solid rgb(239, 63, 64);
+  border-radius: 5px;
+  color: rgb(239, 63, 64);
+  font-size: 22px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.btn-learn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 180px;
+  background-color: rgb(239, 63, 64);
+  border-radius: 5px;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.left-container > p {
+  text-align: justify;
+}
+
+#flag {
+  background: url(../img/icons/flag.png) no-repeat center top;
+}
+
+#search {
+  background: url(../img/icons/search.png) no-repeat center top;
+}
+
+#world-map {
+  background: url(../img/icons/world-map.png) no-repeat center top;
+}
+
+.wrapper-subscribe {
+  background: url(../img/bg-2.png) no-repeat center top;
+  padding-top: 20px;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 400px;
   width: 100%;
-  height: 307px;
-  z-index: 3;
+
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.email {
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  padding-right: 10px;
+  font-size: 18px;
+  border: 2px solid rgb(181, 181, 181);
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(0, 188, 176);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.foot-items > .social-items > .circle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+}
+
+#tw {
+  background-color: #00c4f1;
+}
+
+#fb {
+  background-color: #58708b;
+}
+
+#pn {
+  background-color: #e83549;
+}
+
+.foot-items > .social-items > .circle:last-child {
+  margin-right: 0;
 }
