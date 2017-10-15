@@ -1,0 +1,94 @@
+@media (max-width: 1077px) {
+  #header-cont {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .right-container {
+    width: 100%;
+  }
+
+  .left-container {
+    width: 80%;
+    padding-left: 0;
+  }
+
+  .content-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    align-items: center;
+    width: 80%;
+    padding-bottom: 20px;
+  }
+
+  .img-content {  
+    width: 100%;
+  }
+}
+
+@media (max-width: 920px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .foot-items {
+    width: 80%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 664px) {
+  #info-cont {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    width: 80%;
+    padding-right: 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 468px) {
+  .authorization {
+    flex-direction: column;
+  }
+
+  .btn-sigh-up {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .subscribe {
+    flex-direction: column;
+  }
+
+  .subscribe > h2 {
+    text-align: center;
+  }
+
+  .subscribe > form {
+    text-align: center;
+  }
+
+  .btn {
+    margin-top: 10px;
+    width: 300px;
+  }
+}
